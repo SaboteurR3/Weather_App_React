@@ -1,0 +1,111 @@
+body {
+  background-color: #151b25;
+  animation: transitionIn 5.75s;
+}
+.app {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 35%;
+  height: 750px;
+  -webkit-box-shadow: 0 0 24px 7px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 24px 7px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  transition: 0.4 ease;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),
+    url("./img/pexels-colin-lloyd-3751007.jpg");
+  background-size: cover;
+}
+.Clear {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
+    url("./img/pexels-artem-saranin-1496373.jpg");
+  background-size: cover;
+}
+.Snow {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),
+    url("./img/pexels-eberhard-grossgasteiger-8389098.jpg");
+  background-size: cover;
+}
+.Clouds {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),
+    url("./img/pexels-eberhard-grossgasteiger-2310641.jpg");
+  background-size: cover;
+}
+.Rain {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),
+    url("./img/pexels-josh-hild-2448749.jpg");
+  background-size: cover;
+}
+.Squall {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),
+    url("./img/pexels-eva-bronzini-5948841.jpg");
+  background-size: cover;
+}
+.Drizzle {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),
+    url("./img/pexels-jill-burrow-6858659.jpg");
+  background-size: cover;
+}
+.Thunderstorm {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),
+    url("./img/pexels-pedro-dutra-11757292.jpg");
+  background-size: cover;
+}
+.Smoke {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),
+    url("./img/pexels-ian-beckley-2440061.jpg");
+  background-size: cover;
+}
+.Mist {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),
+    url("./img/pexels-darwis-alwan-1995730.jpg");
+  background-size: cover;
+}
+.Haze {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),
+    url("./img/pexels-eberhard-grossgasteiger-2310641.jpg");
+  background-size: cover;
+}
+.Dust {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),
+    url("./img/pexels-rachel-claire-4993060.jpg");
+  background-size: cover;
+}
+.Fog {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),
+    url("./img/pexels-eberhard-grossgasteiger-1367105.jpg");
+  background-size: cover;
+}
+.Sand {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),
+    url("./img/pexels-rachel-claire-4993060.jpg");
+  background-size: cover;
+}
+.Ash {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),
+    url("./img/pexels-arshad-sutar-2213547.jpg");
+  background-size: cover;
+}
+.Tornado {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),
+    url("./img/pexels-nikolett-emmert-2947810.jpg");
+  background-size: cover;
+}
+@media only screen and (max-width: 1920) {
+  .app {
+    width: 60%;
+    height: 1000px;
+  }
+}
+@media only screen and (max-width: 925px) {
+  .app {
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .app {
+    width: 80%;
+    height: 700px;
+  }
+}
